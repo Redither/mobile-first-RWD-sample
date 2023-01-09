@@ -4,23 +4,279 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Indicorp | Business assistance</title>
     <link rel="stylesheet" href="../css/main.css">
 </head>
 <body>
     <header>
-        <a href="/"><img src="" alt="logo"></a>
-        <nav>
-            <ul>
-                <li><a href="">link</a></li>
-            </ul>
-        </nav>
+        <div class="container">
+            <a href="/"><img class="header__logo" src="../img/logo.svg" alt="Indicorp"></a>
+            <nav>
+                <ul class="header__nav">
+                    <li><a class="header__nav-link" href="">Home</a></li>
+                    <li><a class="header__nav-link" href="">Product</a></li>
+                    <li><a class="header__nav-link" href="">Pricing</a></li>
+                    <li><a class="header__nav-link" href="">Contact</a></li>
+                </ul>
+            </nav>
+            <button class="header__search-btn header-btn">
+                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <g clip-path="url(#clip0_1_373)">
+                    <path fill-rule="evenodd" clip-rule="evenodd" d="M17.1901 15.478L23.6458 21.9337C23.8727 22.1608 24.0001 22.4687 24 22.7897C23.9999 23.1107 23.8723 23.4185 23.6452 23.6454C23.4181 23.8723 23.1102 23.9998 22.7892 23.9996C22.4682 23.9995 22.1604 23.8719 21.9335 23.6448L15.4778 17.1891C13.5479 18.6839 11.1211 19.3873 8.69104 19.1563C6.26097 18.9252 4.01018 17.7771 2.39656 15.9455C0.782936 14.1139 -0.0723147 11.7364 0.00479537 9.29656C0.0819054 6.85675 1.08558 4.53796 2.81165 2.81189C4.53771 1.08583 6.85651 0.0821496 9.29632 0.00503951C11.7361 -0.0720706 14.1137 0.78318 15.9453 2.3968C17.7769 4.01043 18.925 6.26122 19.156 8.69129C19.387 11.1214 18.6836 13.5482 17.1889 15.478H17.1901ZM9.60045 16.7992C11.5099 16.7992 13.3412 16.0406 14.6914 14.6904C16.0416 13.3402 16.8001 11.509 16.8001 9.59949C16.8001 7.69002 16.0416 5.85876 14.6914 4.50856C13.3412 3.15836 11.5099 2.39983 9.60045 2.39983C7.69098 2.39983 5.85971 3.15836 4.50951 4.50856C3.15932 5.85876 2.40078 7.69002 2.40078 9.59949C2.40078 11.509 3.15932 13.3402 4.50951 14.6904C5.85971 16.0406 7.69098 16.7992 9.60045 16.7992Z" fill="#737373"/>
+                    </g>
+                    <defs><clipPath id="clip0_1_373"><rect width="24" height="23.9997" fill="white"/></clipPath></defs></svg>                    
+            </button>
+            <button class="header__stash-btn header-btn">
+                <svg width="24" height="23" viewBox="0 0 24 23" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <g clip-path="url(#clip0_1_375)">
+                    <path d="M8.00002 22.4002C8.88368 22.4002 9.60003 21.6839 9.60003 20.8002C9.60003 19.9165 8.88368 19.2002 8.00002 19.2002C7.11637 19.2002 6.40002 19.9165 6.40002 20.8002C6.40002 21.6839 7.11637 22.4002 8.00002 22.4002Z" fill="#737373"/>
+                    <path d="M19.2 22.4002C20.0836 22.4002 20.8 21.6839 20.8 20.8002C20.8 19.9165 20.0836 19.2002 19.2 19.2002C18.3163 19.2002 17.6 19.9165 17.6 20.8002C17.6 21.6839 18.3163 22.4002 19.2 22.4002Z" fill="#737373"/>
+                    <path d="M22.4 4.00016H4.656L4 0.640163C3.9626 0.456742 3.86206 0.292245 3.71589 0.175305C3.56971 0.0583653 3.38716 -0.00361159 3.2 0.000162751H0V1.60016H2.544L5.6 16.9602C5.6374 17.1436 5.73794 17.3081 5.88411 17.425C6.03029 17.542 6.21284 17.6039 6.4 17.6002H20.8V16.0002H7.056L6.4 12.8002H20.8C20.9849 12.8047 21.1657 12.745 21.3116 12.6312C21.4574 12.5174 21.5594 12.3566 21.6 12.1762L23.2 4.97616C23.2268 4.85746 23.2262 4.73421 23.1982 4.61579C23.1702 4.49737 23.1155 4.38689 23.0384 4.29278C22.9612 4.19867 22.8636 4.12339 22.753 4.07268C22.6424 4.02198 22.5217 3.99717 22.4 4.00016ZM20.16 11.2002H6.096L4.976 5.60016H21.4L20.16 11.2002Z" fill="#737373"/>
+                    </g>
+                    <defs><clipPath id="clip0_1_375"><rect width="24" height="22.4002" fill="white"/></clipPath></defs>
+                </svg>                    
+            </button>
+            <button class="header__menu-btn header-btn">
+                <svg width="24" height="14" viewBox="0 0 24 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M0.571411 0H23.4285V2.28571H0.571411V0ZM6.2857 5.71429H23.4285V8H6.2857V5.71429ZM13.4286 11.4286H23.4285V13.7143H13.4286V11.4286Z" fill="#737373"/>
+                </svg>
+            </button>
+        </div>
     </header>
     <main>
-        
+        <h1 class="visualy-hidden">Business assistance</h1>
+        <section class="hero__section">
+            <div class="container">
+                <h2 class="hero__ttl">EMPOWER YOUR BUSINESS</h2>
+                <p class="hero__txt">We know how large objects will act, but things on a small scale.</p>
+                <div class="hero__btns-container">
+                    <button class="round-btn__orange">Get Quote Now</button>
+                    <button class="round-btn__bluebrdr">Learn More</button>
+                </div>
+                <ul class="hero__cards-container 3cards-container">
+                    <li class="hero__card">
+                        <img src="../img/hero-icon-1.svg" alt="Digital Marketing Cases" class="hero__card-img">
+                        <h3 class="hero__card-ttl">Digital Marketing</h3>
+                        <p class="hero__card-txt">We focus on ergonomics and meeting you where you work.</p>
+                    </li>
+                    <li class="hero__card">
+                        <img src="../img/hero-icon-2.svg" alt="Become top firm" class="hero__card-img">
+                        <h3 class="hero__card-ttl">National top 50 firms</h3>
+                        <p class="hero__card-txt">Just type what's on your mind and we'll get you there.</p>
+                    </li>
+                    <li class="hero__card">
+                        <img src="../img/hero-icon-3.svg" alt="Up sales" class="hero__card-img">
+                        <h3 class="hero__card-ttl">Digital Marketing</h3>
+                        <p class="hero__card-txt">the quick fox jumps over the lazy dog.</p>
+                    </li>
+                </ul>
+            </div>
+        </section>
+        <section class="why-us__section">
+            <div class="container">
+                <h2 class="why-us__ttl ttl">Why choose us</h2>
+                <p class="why-us__txt">Problems trying to resolve the conflict between the two major realms of Classical physics: 
+                Newtonian mechanics </p>
+                <ul class="why-us__cards-container 4cards-container">
+                    <li class="why-us__card Col">
+                        <img src="../img/hwyus-icon-1.svg" alt="Social cases" class="why-us__card-img">
+                        <span class="why-us__card-num">3k</span>
+                        <h3 class="why-us__card-ttl">cases done</h3>
+                    </li>
+                    <li class="why-us__card Col">
+                        <img src="../img/hwyus-icon-2.svg" alt="Customers statistic" class="why-us__card-img">
+                        <span class="why-us__card-num">45</span>
+                        <h3 class="why-us__card-ttl">happy customers</h3>
+                    </li>
+                    <li class="why-us__card Col">
+                        <img src="../img/hwyus-icon-3.svg" alt="Awards" class="why-us__card-img">
+                        <span class="why-us__card-num">12+</span>
+                        <h3 class="why-us__card-ttl">award winning</h3>
+                    </li>
+                    <li class="why-us__card Col">
+                        <img src="../img/hwyus-icon-4.svg" alt="Business cases" class="why-us__card-img">
+                        <span class="why-us__card-num">1.5k</span>
+                        <h3 class="why-us__card-ttl">cases done</h3>
+                    </li>
+                </ul>
+            </div>
+        </section>
+        <section class="advice__section">
+            <div class="container">
+                <h2 class="advice__ttl ttl">Practice Advice</h2>
+                <p class="advice__txt">Problems trying to resolve the conflict between the two major realms of Classical physics: 
+                Newtonian mechanics </p>
+                <ul class="advice__cards-container 4cards-container">
+                    <li class="advice__card">
+                        <h3 class="advice__card-ttl">A single source of truth</h3>
+                        <p class="advice__card-txt">Newton thought that light was made up of particles, but then it was discovered </p>
+                        <img src="../img/advice-ill-1.jpg" alt="particles advice" class="advice__card-img">
+                    </li>
+                    <li class="advice__card">
+                        <h3 class="advice__card-ttl">Fastest way to organize</h3>
+                        <p class="advice__card-txt">“Quantum mechanics” is the description of the behaviour of matter</p>
+                        <img src="../img/advice-ill-2.jpg" alt="Organize advice" class="advice__card-img">
+                    </li>
+                    <li class="advice__card">
+                        <h3 class="advice__card-ttl">Fastest way to take action</h3>
+                        <p class="advice__card-txt">They describe a universe consisting of bodies moving</p>
+                        <img src="../img/advice-ill-3.jpg" alt="Action advice" class="advice__card-img">
+                    </li>
+                    <li class="advice__card">
+                        <h3 class="advice__card-ttl">Work better together</h3>
+                        <p class="advice__card-txt">They finally obtained a consistent description of the behaviour</p>
+                        <img src="../img/advice-ill-4.jpg" alt="Work advice" class="advice__card-img">
+                    </li>
+                </ul>
+            </div>
+        </section>
+        <section class="service__section">
+            <div class="container">
+                <h2 class="service__ttl ttl">We are providing best business service.</h2>
+                <p class="service__txt">Problems trying to resolve the conflict between the two major realms of Classical physics: 
+                Newtonian mechanics </p>
+                <div class="service__video-card Row">
+                    <div class="service__video-container">
+                        <img src="../img/video-preview.jpg" alt="video preview" class="service__video">
+                        <button class="video__btn">▶</button>
+                    </div>
+                    <div class="service__video-describe Co">
+                        <h3 class="video-describe__ttl ttl">Most trusted in our field</h3>
+                        <p class="video-describe__txt">Most calendars are designed for teams. Slate is designed for freelancers who want 
+                        a simple way to plan their schedule.</p>
+                        <ul class="video-describe__paragraphs">
+                            <li class="video-describe__paragraph">
+                                <h4 class="video-describe__paragraph-ttl">the quick fox jumps over the lazy dog</h4>
+                                <p class="video-describe__paragraph-txt">Things on a very small scale ...</p>
+                            </li>
+                            <li class="video-describe__paragraph">
+                                <h4 class="video-describe__paragraph-ttl">the quick fox jumps over the lazy dog</h4>
+                                <p class="video-describe__paragraph-txt">Things on a very small scale ...</p>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="partners__section">
+            <h2 class="visuali-hidden">Our partners</h2>
+            <ul class="container Row">
+                <li><img src="../img/partner-1.svg" alt="Hooli"></li>
+                <li><img src="../img/partner-2.svg" alt="Lyft"></li>
+                <li><img src="../img/partner-3.svg" alt="Pied Piper Hat"></li>
+                <li><img src="../img/partner-4.svg" alt="Stripe"></li>
+                <li><img src="../img/partner-5.svg" alt="Amazon Web Services"></li>
+                <li><img src="../img/partner-6.svg" alt="Reddit"></li>
+            </ul>
+        </section>
+        <div class="subscribe__block">
+            <form action="" class="subscribe__form Row">
+                <h3 class="subscribe__form-ttl">Subscribe For Latest Newsletter</h3>
+                <div class="subscribe__form-field">
+                    <label for="subs_email" class="visualy-hidden"><span>Your email input</span></label>
+                    <input id="subs_email" name="subs_email" type="email" class="subscibe__form-input" placeholder="Your Email">
+                    <button class="subscribe__form-btn square-btn__yellow">Subscribe</button>
+                </div>
+            </form>
+        </div>
+        <section class="GetIT__section">
+            <div class="container Col">
+                <h2 class="GetIT__section-ttl ttl">Get In Touch</h2>
+                <p class="GetIT__section-txt">Problems trying to resolve the conflict between the two major realms of Classical physics: 
+                Newtonian mechanics </p>
+                <ul class="GetIT__cards-container Row">
+                    <li class="GetIT__card Col">
+                        <img src="../img/icon-GetIT-1.svg" alt="Call us" class="GetIT__card-img">
+                        <a href="mailto:georgia.young@example.com" class="GetIT__card-link">georgia.young@example.com</a>
+                        <a href="mailto:georgia.young@ple.com" class="GetIT__card-link">georgia.young@ple.com</a>
+                        <span class="GetIT__card-txt">Get Support</span>
+                        <button class="GetIT__card-btn square-btn__yellowbrdr">Submit Request</button>
+                    </li>
+                    <li class="GetIT__card Col">
+                        <img src="../img/icon-GetIT-2.svg" alt="Find us" class="GetIT__card-img">
+                        <a href="mailto:georgia.young@example.com" class="GetIT__card-link">georgia.young@example.com</a>
+                        <a href="mailto:georgia.young@ple.com" class="GetIT__card-link">georgia.young@ple.com</a>
+                        <span class="GetIT__card-txt">Get Support</span>
+                        <button class="GetIT__card-btn square-btn__whitebrdr">Submit Request</button>
+                    </li>
+                    <li class="GetIT__card Col">
+                        <img src="../img/icon-GetIT-3.svg" alt="Mail us" class="GetIT__card-img">
+                        <a href="mailto:georgia.young@example.com" class="GetIT__card-link">georgia.young@example.com</a>
+                        <a href="mailto:georgia.young@ple.com" class="GetIT__card-link">georgia.young@ple.com</a>
+                        <span class="GetIT__card-txt">Get Support</span>
+                        <button class="GetIT__card-btn square-btn__yellowbrdr">Submit Request</button>
+                    </li>
+                </ul>
+            </div>
+        </section>
     </main>
     <footer>
-
+        <div class="top-footer container Row">
+            <div class="top-footer__txts Col">
+                <h2 class="top-footer__ttl">Consulting Agency For Your Business</h2>
+                <p class="top-footer__txt">the quick fox jumps over the lazy dog</p>
+            </div>
+            <button class="top-footer__btn square-btn__yellow">Contact Us</button>
+        </div>
+        <div class="mid-footer">
+            <div class="container">
+                <ul class="mid-footer__cards Row">
+                    <li class="mid-footer__card Col">
+                        <h3 class="mid-footer__card-ttl">Company Info</h3>
+                        <ul class="mid-footer__card-links">
+                            <li><a href="" class="mid-footer__card-link">About Us</a></li>
+                            <li><a href="" class="mid-footer__card-link">Carrier</a></li>
+                            <li><a href="" class="mid-footer__card-link">We are hiring</a></li>
+                            <li><a href="" class="mid-footer__card-link">Blog</a></li>
+                        </ul>
+                    </li>
+                    <li class="mid-footer__card Col">
+                        <h3 class="mid-footer__card-ttl">Legal</h3>
+                        <ul class="mid-footer__card-links">
+                            <li><a href="" class="mid-footer__card-link">About Us</a></li>
+                            <li><a href="" class="mid-footer__card-link">Carrier</a></li>
+                            <li><a href="" class="mid-footer__card-link">We are hiring</a></li>
+                            <li><a href="" class="mid-footer__card-link">Blog</a></li>
+                        </ul>
+                    </li>
+                    <li class="mid-footer__card Col">
+                        <h3 class="mid-footer__card-ttl">Features</h3>
+                        <ul class="mid-footer__card-links">
+                            <li><a href="" class="mid-footer__card-link">Business Marketing</a></li>
+                            <li><a href="" class="mid-footer__card-link">User Analytic</a></li>
+                            <li><a href="" class="mid-footer__card-link">Live Chat</a></li>
+                            <li><a href="" class="mid-footer__card-link">Unlimited Support</a></li>
+                        </ul>
+                    </li>
+                    <li class="mid-footer__card Col">
+                        <h3 class="mid-footer__card-ttl">Resources</h3>
+                        <ul class="mid-footer__card-links">
+                            <li><a href="" class="mid-footer__card-link">IOS & Android</a></li>
+                            <li><a href="" class="mid-footer__card-link">Watch a Demo</a></li>
+                            <li><a href="" class="mid-footer__card-link">Customers</a></li>
+                            <li><a href="" class="mid-footer__card-link">API</a></li>
+                        </ul>
+                    </li>
+                    <li class="mid-footer__card Col">
+                        <h3 class="mid-footer__card-ttl">Get In Touch</h3>
+                        <ul class="mid-footer__card-links">
+                            <li><a href="tel:(480) 555-0103" class="mid-footer__card-link"><img src="../img/link-icon-phone.svg" alt="Call us">(480) 555-0103</a></li>
+                            <li><a href="" class="mid-footer__card-link"><img src="../img/link-icon-map.svg" alt="Our location">4517 Washington Ave.</a></li>
+                            <li><a href="mailto:debra.holt@example.com" class="mid-footer__card-link"><img src="../img/link-icon-mail.svg" alt="Mail us">debra.holt@example.com</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <div class="bot-footer container">
+            <p class="bot-footer__copyrigth">Made With Love By Figmaland. All Right Reserved</p>
+            <div class="bot-footer__social-links">
+                <a href="" class="social-link"><img src="../img/logo-facebook.svg" alt="facebook"></a>
+                <a href="" class="social-link"><img src="../img/logo-instagram.svg" alt="instagram"></a>
+                <a href="" class="social-link"><img src="../img/logo-twitter.svg" alt="twitter"></a>
+                <a href="" class="social-link"><img src="../img/logo-youtube.svg" alt="youtube"></a>
+            </div>
+        </div>
     </footer>
 </body>
 </html>
